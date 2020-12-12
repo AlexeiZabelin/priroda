@@ -1,0 +1,210 @@
+
+/*Шапка Сайта*/
+		/*Меню пункты*/
+
+header {
+	text-align: center;
+	display: flex;
+}
+
+nav {
+	background-color: #FEFAF6;
+}
+
+nav div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+nav .row {
+	justify-content: center;
+}
+
+nav span {
+	font-weight: bolder;
+	color: #BAA36B;
+}
+
+nav span:hover {
+	color: #2E2528;
+}
+
+		/*Карусель*/
+
+.carousel-item {
+	text-align: center;
+}
+
+
+.carousel-item h1 {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	color:  #FEFAF6;
+	font-family: 'Caveat', cursive;
+	font-size:max(1em, min(4em, calc(100vw * 4 / 75)));
+
+}
+
+/*Основное содержимое*/
+	/*Первый кусок*/
+main {
+	background-color: #F7F7F7;
+}
+
+#primeri {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+}
+
+#primeri img {
+	max-height: 200px;
+}
+
+.novost {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+}
+
+
+.novost p {
+	margin: 30px;
+	font-weight: bolder;
+
+}
+
+.cherta {
+	background-color: #AF9453;
+	height: 2px;
+}
+		/*--------------График---------------------*/
+
+.grafik {
+	background-color:  #242424;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.grafik h2{
+	color:  #F7F7F7;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.grafik p{
+	margin-top: 10%;
+	color:  #888785;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+		/*Второрой кусок Параграф о нас*/
+
+.onas {
+	background-color: #F7F7F7;
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+
+.onas h2 {
+	color: #645F1B;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.onas p {
+	margin-top: 10%;
+	color:  #888785;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+		/*Третий кусок*/
+.registr {
+	background-color: #242424;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.registr .col-sm-6 {
+	text-align: center;
+	
+}
+
+.col-sm-6 h1 {
+	
+	margin-bottom: 30px;
+	color: #FEFAF6;
+}
+
+
+.map {
+    overflow:hidden;
+    padding-bottom: 75%;
+    position:relative;
+    height:0;
+}
+.map iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.text {
+	flex-direction: column;
+}
+
+.registr p {
+	color:  #888785;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+#vopros {
+	padding-bottom: 16%;
+}
+
+.registr button {
+	margin-top: 10px;
+	background-color: red;
+	color:  #FEFAF6;
+	border-radius: 10px;
+	padding: 1% 3%;
+	font-weight: bold;
+}
+
+.registr button:hover {
+	background-color:  #FEFAF6;
+	color:  #242424;
+}
+
+/*Подвал*/
+
+footer {
+	background-color: #AF9453;
+	text-align: center;
+	color: #FEFAF6;
+}
+
+footer .col-sm-4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer span {
+	border: 1px solid #FEFAF6;
+	padding: 15px 40px;
+	font-weight: bolder;
+}
+
+footer span:hover {
+	background-color: #FEFAF6;
+	color:  #BAA36B;
+}
